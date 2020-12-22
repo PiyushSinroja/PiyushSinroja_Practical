@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "marginTop": 40,
+          "width": "100%",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCorrect={false}
+        onChangeText={[Function]}
+        placeholder="User Name"
+        placeholderTextColor="lightgrey"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "alignSelf": "stretch",
+            "borderColor": "gray",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontSize": 14,
+            "height": 73.37,
+            "justifyContent": "center",
+            "marginEnd": 15,
+            "marginStart": 15,
+            "marginTop": 0,
+            "paddingStart": 10,
+          }
+        }
+        testID="User Name"
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "column",
+          "marginBottom": 20,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#5AAAF2",
+            "borderRadius": 5,
+            "height": 80.03999999999999,
+            "justifyContent": "center",
+            "marginEnd": 20,
+            "marginStart": 20,
+            "opacity": 1,
+          }
+        }
+        testID="Save"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "fontSize": 17,
+                "fontWeight": "normal",
+              },
+              Object {
+                "color": "white",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          Save
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

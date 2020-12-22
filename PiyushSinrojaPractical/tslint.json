@@ -1,0 +1,16 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended",
+      "tslint-eslint-rules",
+      "tslint-react",
+      "tslint-config-prettier"
+    ],
+    "jsRules": {"no-empty": [true, "allow-empty-functions"]},
+    "rules": {
+      "interface-name": false,
+      "jsx-no-lambda": false,
+      "object-literal-sort-keys": false,
+      "quotemark": [true, "single", "jsx-double"]
+    }
+  }
